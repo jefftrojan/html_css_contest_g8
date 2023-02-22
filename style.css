@@ -119,13 +119,83 @@ footer {
     margin-bottom: 20px;
   }
 
-  aside {
-    width: 100%;
-    margin-bottom: 0;
+  nav ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
   .categories,
   .recent-posts {
     margin-bottom: 10px;
   }
+
+  footer {
+    padding: 20px 0;
+  }
+}
+
+nav.active {
+  display: flex;
+}
+
+nav ul {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 25px 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav a:hover {
+  text-transform: uppercase;
+  text-overflow: clip;
+  color: rgb(21, 51, 161);
+}
+
+/* Main section styles */
+main {
+  flex-grow: 1;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
 }

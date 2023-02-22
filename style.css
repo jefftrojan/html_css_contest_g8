@@ -1,0 +1,17 @@
+article {
+    margin-bottom: 20px;
+  }
+
+  aside {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .categories, .recent-posts {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+}

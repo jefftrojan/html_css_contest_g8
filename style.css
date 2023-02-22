@@ -1,4 +1,97 @@
 article {
+  margin-bottom: 20px;
+}
+
+.categories,
+.recent-posts {
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+/* Sidebar styles */
+aside {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 40px;
+}
+
+.categories,
+.recent-posts {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.categories h3,
+.recent-posts h3 {
+  margin-top: 0;
+}
+
+.categories ul,
+.recent-posts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li,
+.recent-posts li {
+  margin-bottom: 10px;
+}
+
+.categories a,
+.recent-posts a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  main {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  article {
     margin-bottom: 20px;
   }
 
@@ -7,7 +100,8 @@ article {
     margin-bottom: 0;
   }
 
-  .categories, .recent-posts {
+  .categories,
+  .recent-posts {
     margin-bottom: 10px;
   }
 

@@ -1,5 +1,40 @@
+<<<<<<< HEAD
 nav.active {
     display: flex;
+=======
+/* Goodness */
+
+
+
+
+
+
+
+/* Ruth */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Frank */
+
+
+
+
+
+
+/* Yves */
+
+article {
+    margin-bottom: 20px;
+>>>>>>> d6db116005ad19240afb532e216ff73e3cc34068
   }
 
   nav ul {
@@ -18,6 +53,7 @@ nav ul {
   display: flex;
 }
 
+<<<<<<< HEAD
 nav li {
   margin-right: 20px;
 }
@@ -65,3 +101,8 @@ article p {
   text-decoration: none;
   margin-top: 10px;
 }
+=======
+  footer {
+    padding: 20px 0;
+  }
+>>>>>>> d6db116005ad19240afb532e216ff73e3cc34068

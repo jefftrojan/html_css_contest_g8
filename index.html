@@ -92,6 +92,61 @@
         <a href="#" class="read-more">Read More</a>
       </article>
       <hr>
+      <article>
+        <h2>How do you create a responsive image with CSS?</h2>
+        <p>To create a responsive image with CSS, you can use the max-width property on the image element, which will
+          allow the image to scale down proportionally to fit within its container while maintaining its aspect ratio.
+          Here is an example:
+          <br>(img src="your-image-url.jpg" alt="Your image" style="max-width:100%;")
+          <br>In this example, the max-width property is set to 100%, which means the image will never be wider than its
+          container. As the container resizes, the image will adjust accordingly to maintain its aspect ratio.
+          You can also use CSS media queries to adjust the image size and properties based on the device screen size.
+          Here's an example of how to do this:
+          /* For screens smaller than 768px */
+          @media (max-width: 768px) {
+          img {
+          max-width: 100%;
+          height: auto;
+          }
+          }
+
+          /* For screens larger than 768px */
+          @media (min-width: 769px) {
+          img {
+          max-width: 50%;
+          height: auto;
+          }
+          }
+
+          In this example, the image will have a max-width of 100% on screens smaller than 768px, and a max-width of 50%
+          on screens larger than 768px. The height property is set to auto to maintain the image's aspect ratio.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+      <hr>
+      <article>
+        <h2>Can you explain the CSS float property and how it works?</h2>
+        <p>The CSS float property is used to specify how an element should be positioned horizontally within its parent
+          container. When an element is floated, it is taken out of the normal flow of the document and moved to the
+          left or right side of its containing block.
+          The float property can be set to left, right, or none. When an element is floated to the left or right, any
+          text or other elements that come after it will flow around it, wrapping to the other side of the element.
+          It's important to note that when an element is floated, it no longer takes up space in the same way as a
+          non-floated element. This can sometimes cause layout issues, such as elements overlapping or not lining up as
+          expected.
+          To avoid these issues, it's important to use the clear property to specify whether an element should be
+          positioned below any floated elements that come before it. The clear property can be set to left, right, both,
+          or none.
+          In general, the float property is commonly used for creating layouts where elements need to be positioned next
+          to each other, such as for creating columns or placing images next to text.
+          However, it's important to use the float property with caution and to be aware of its potential layout issues.
+          Other CSS properties and techniques, such as flexbox and grid, may be better suited for creating more complex
+          layouts.
+
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
+      <hr>
     </main>
 
     <aside>
